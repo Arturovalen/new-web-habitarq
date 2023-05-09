@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+.caja-01 {
+    /* border: solid 1px; */
+    height: 40px;
+    /* background-color: red; */
+}
+
+.caja-02 {
+    /* border: solid 1px; */
+    height: 625px;
+    /* background-color: yellow; */
+    display: grid;
+    justify-content: center;
+}
+
+.caja-021 {
+    position: relative;
+    justify-content: center;
+    /* border: solid 1px; */
+
+    height: 625px;
+    width: 1170px;
+
+    background-image: url(/images/01_cover.jpg);
+    background-size: cover;
+    box-shadow: inset 0 -150px 180px -80px rgba(0, 0, 0, 0.6);
+}
+.caja-0211 {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    /* border: solid 1px; */
+    background-color: transparent;
+    height: 80px;
+    font-size: 25px;
+    color: white;
+    user-select: none;
+    letter-spacing: 1px;
+}
+
+.caja-0212 {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    /* border: solid 1px; */
+    background-color: transparent;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.caja-03 {
+    /* border: solid 1px; */
+    height: 155px;
+    /* background-color: green; */
+    display: grid;
+    justify-content: center;
+    color: rgb(66, 66, 66);
+}
+
+.caja-031 {
+    position: relative;
+    justify-content: center;
+    padding-top: 105px;
+    /* border: solid 1px; */
+
+    height: 55px;
+    width: 1170px;
+
+    /* background-color: wheat; */
+}
+
+.caja-0311 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.caja-04 {
+    /* border: solid 1px; */
+    height: auto;
+    background-image: url();
+    display: grid;
+    justify-content: center;
+}
+
+.caja-041 {
+    position: relative;
+    justify-content: center;
+    /* border: solid 1px; */
+
+    display: grid;
+    height: auto;
+    width: 1170px;
+}
+
+.caja-a {
+    display: flex;
+}
+
+.caja-0411 {
+    border: solid 1px white;
+    height: 707px;
+    width: 585px;
+    background-image: url(/images/02_project.jpg);
+    background-size: cover;
+    box-shadow: inset 0 -150px 180px -80px rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.caja-04a {
+    width: 585px;
+    display: flex;
+    justify-content: space-between;
+    /* border: solid black 1px; */
+}
+
+.text-04 {
+    margin: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.caja-04121 {
+    border: solid 1px white;
+    height: 353px;
+    width: 585px;
+    background-image: url(/images/03_project.jpg);
+    background-size: cover;
+    box-shadow: inset 0 -150px 180px -80px rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.caja-04122 {
+    border: solid 1px white;
+    height: 354px;
+    width: 585px;
+    background-image: url(/images/04_project.jpg);
+    background-size: cover;
+    box-shadow: inset 0 -150px 180px -80px rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.caja-b {
+    display: flex;
+}
+
+.caja-0413 {
+    border: solid 0.1px white;
+    height: 353px;
+    width: 585px;
+    background-image: url(/images/05_project.jpg);
+    background-size: cover;
+    box-shadow: inset 0 -150px 180px -80px rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.caja-0414 {
+    border: solid 0.1px white;
+    height: 353px;
+    width: 585px;
+    background-image: url(/images/06_project.jpg);
+    background-size: cover;
+    box-shadow: inset 0 -150px 180px -80px rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.caja-c {
+    display: flex;
+}
+
+.caja-04151 {
+    border: solid 0.1px white;
+    height: 353px;
+    width: 585px;
+    background-image: url(/images/07_project.jpg);
+    background-size: cover;
+    box-shadow: inset 0 -150px 180px -80px rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.caja-04152 {
+    border: solid 0.1px white;
+    height: 354px;
+    width: 585px;
+    background-image: url(/images/08_project.jpg);
+    background-size: cover;
+    box-shadow: inset 0 -150px 180px -80px rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.caja-0416 {
+    border: solid 0.1px white;
+    height: 707px;
+    width: 585px;
+    background-image: url(/images/09_project.jpg);
+    background-size: cover;
+    box-shadow: inset 0 -150px 180px -80px rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.caja-05 {
+    /* border: solid 1px; */
+    height: 150px;
+    /* background-color: green; */
+    display: grid;
+    justify-content: center;
+}
+
+.caja-051 {
+    position: relative;
+    justify-content: center;
+    /* border: solid 1px; */
+
+    height: auto;
+    width: 1170px;
+
+    padding-top: 50px;
+
+    /* background-color: wheat; */
+}
+
+.caja-0511 {
+    display: flex;
+    justify-content: center;
+}
+
+.icono {
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.caja-06 {
+    top: auto;
+    bottom: 0px;
+    margin-bottom: 0px;
+
+    position: fixed;
+    right: 0;
+    left: 0;
+
+    /* border: solid 1px; */
+    height: 55px;
+    /* background-color: red; */
+    display: grid;
+    justify-content: center;
+}
+
+.caja-061 {
+    position: relative;
+    justify-content: center;
+    /* border: solid 1px; */
+
+    height: auto;
+    width: 1170px;
+
+    padding-top: 18px;
+
+    background-color: white;
+}
+
+.caja-0611 {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    letter-spacing: 1px;
+}
+
+.space-letter {
+    color: transparent;
+    user-select: none;
+}
+
+.navbar-link {
+    cursor: pointer;
+}
+
+.barra-space {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.barra-space:hover {
+    opacity: 100%;
+    cursor: pointer; 
+    font-weight: bold;
+}
+
+.barra-div {
+    user-select: none;
+}
